@@ -1,0 +1,147 @@
+{
+  "name": "Britannia Trade & Distribution",
+  "dataColors": [
+    "#1A2E4A",
+    "#F5A623",
+    "#2F5C85",
+    "#6B4C8A",
+    "#4A90D9",
+    "#B08D57",
+    "#3D7A6E",
+    "#8C6A46",
+    "#8AA9C7",
+    "#C9A227",
+    "#5A6B8C",
+    "#A47FE8",
+    "#46728C",
+    "#D9B36C",
+    "#6B7A99",
+    "#8C4A5A",
+    "#3D4F66",
+    "#A88B6B"
+  ],
+  "background": "#F2F3F5",
+  "backgroundLight": "#FFFFFF",
+  "backgroundNeutral": "#E8E8E8",
+  "foreground": "#23324A",
+  "foregroundNeutralSecondary": "#5B6B80",
+  "foregroundNeutralTertiary": "#8A9AB0",
+  "tableAccent": "#1A2E4A",
+  "good": "#2ECC8A",
+  "neutral": "#F5A623",
+  "bad": "#E8534A",
+  "maximum": "#6B85A8",
+  "center": "#F5A623",
+  "minimum": "#FCEFD9",
+  "null": "#C7CCD4",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#1A2E4A"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#1A2E4A"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 9,
+      "color": "#23324A"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#F5A623"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#1A2E4A" } },
+            "fontSize": 11,
+            "bold": true,
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [
+          { "show": true, "color": { "solid": { "color": "#1A2E4A" } } }
+        ],
+        "labels": [
+          { "color": { "solid": { "color": "#F5A623" } }, "fontSize": 28, "fontFamily": "Segoe UI" }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#FFFFFF" } }, "fontSize": 10, "fontFamily": "Segoe UI" }
+        ],
+        "callout": [
+          { "color": { "solid": { "color": "#F5A623" } }, "fontSize": 28, "fontFamily": "Segoe UI" }
+        ],
+        "categoryLabel": [
+          { "color": { "solid": { "color": "#FFFFFF" } }, "fontSize": 10, "fontFamily": "Segoe UI" }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "background": [
+          { "show": true, "color": { "solid": { "color": "#1A2E4A" } } }
+        ],
+        "dataLabels": [
+          { "color": { "solid": { "color": "#F5A623" } }, "fontSize": 20 }
+        ],
+        "categoryLabels": [
+          { "color": { "solid": { "color": "#FFFFFF" } }, "fontSize": 10 }
+        ]
+      }
+    },
+    "kpi": {
+      "*": {
+        "background": [
+          { "show": true, "color": { "solid": { "color": "#1A2E4A" } } }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1A2E4A" } },
+            "bold": true
+          }
+        ],
+        "values": [
+          { "fontColor": { "solid": { "color": "#8C6A46" } } }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1A2E4A" } },
+            "bold": true
+          }
+        ],
+        "values": [
+          { "fontColor": { "solid": { "color": "#8C6A46" } } }
+        ]
+      }
+    }
+  }
+}
